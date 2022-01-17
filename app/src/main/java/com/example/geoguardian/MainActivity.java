@@ -2,6 +2,7 @@ package com.example.geoguardian;
 
 import android.os.Bundle;
 
+import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.geoguardian.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private ActivityMainBinding binding;
 

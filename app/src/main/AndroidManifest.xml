@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Geoguardian">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBS9bHvho73n19DrSMNpH0Q-1U2b9_ENWg" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -20,5 +25,9 @@
             </intent-filter>
         </activity>
     </application>
+
+
+
+
 
 </manifest>
